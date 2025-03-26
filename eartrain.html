@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GOOD EAR</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<br></br>
+    <br></br>
+	<br></br>
+    <br></br>
+	<br></br>
+    <br></br>
+<header>
+    <h1>GOOD EAR</h1>
+</header>
+
+<main>
+    <section id="listening-section">
+    <br></br>
+    <br></br>
+        <h2>Listen to the note and identify it:</h2>
+        <br></br>
+        <br></br>
+				<p id="tip">Check the box to loop notes</p>
+		<br></br>
+
+        <div id="audio-controls">
+            <select id="notes">
+                <option value="C">C</option>
+                <option value="CC0">C#/Db</option>
+                <option value="D">D</option>
+                <option value="DD">D#/Eb</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="FF">F#/Gb</option>
+                <option value="G">G</option>
+                <option value="GG">G#/Ab</option>
+                <option value="A">A</option>
+                <option value="AA">A#/Bb</option>
+                <option value="B">B</option>
+            </select>
+            <button id="play-button">Play Note</button>  
+        </div>
+        <audio id="audio"></audio>
+    </section>
+    <br></br>
+    <br></br>
+
+
+    <div class="tuner">
+        <h1>Tuner</h1>
+	<br></br>
+	<br></br>
+    <br></br>
+        <div id="note">-</div>
+        <div id="frequency">- Hz</div>
+        <button id="toggleButton" onclick="toggleTuner()">Start Tuning</button>
+	<br></br>
+	<br></br>
+    <br></br>
+    </div>
+
+
+</main>
+
+
+<footer>
+    <p>&copy; 2024 Good Ear</p>
+</footer>
+
+<script src="GoodEar.js"></script>
+<script src="tuner.js"></script>
+</body>
+</html>

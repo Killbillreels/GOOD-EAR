@@ -1,0 +1,98 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: gold; /* Gold background */
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 54px;
+    color: #fff; /* White text */
+}
+
+h2 {
+    color: gold; /* Gold background */
+    font-size: 45px;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+#level-selection {
+    margin-top: 40px;
+}
+
+.level-btn, .btn, #next-btn, #retry-btn {
+    padding: 10px 20px;
+    background-color: gold; /* Gold background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 50px; /* Round shape */
+    font-size: 26px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.level-btn:hover, .btn:hover, #next-btn:hover, #retry-btn:hover {
+    background-color: rgba(255, 215, 0, 0.7); /* Lighten background on hover */
+}
+
+#quiz-section, #results-section {
+    display: none;
+    margin-top: 40px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-group .btn {
+    margin: 10px 0;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Footer styles */
+footer {
+    background-color: gold; /* Gold background */
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    color: #fff; /* White text */
+    margin: 0;
+}

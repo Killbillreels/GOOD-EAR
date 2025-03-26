@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi-Level Quiz - GOOD EAR</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<header>
+    <h1>GOOD EAR</h1>
+</header>
+<br><br>
+<main>
+    <section id="level-selection">
+        <h2>Select Difficulty Level:</h2>
+        <br></br>
+		<br></br>
+        <button class="level-btn" data-level="easy">Easy</button>
+        <br></br>
+        <button class="level-btn" data-level="medium">Medium</button>
+        <br></br>
+        <button class="level-btn" data-level="hard">Hard</button>
+    </section>
+
+    <section id="quiz-section" style="display: none;">
+        <h2 id="quiz-title"></h2>
+		<br></br>
+		<br></br>
+		<br></br>
+		
+        <audio id="note-audio" controls></audio>
+		<br></br>
+		<br></br>
+        <p id="question"></p>
+        <div id="answer-buttons" class="btn-group">
+            <!-- Answer buttons will be dynamically inserted here -->
+        </div>
+        <button id="next-btn" style="display: none;">Next</button>
+        <p id="feedback"></p>
+    </section>
+
+    <section id="results-section" style="display: none;">
+        <h2>Quiz Complete!</h2>
+		<br></br>
+		<br></br>
+		<br></br>
+		
+        <p id="results"></p>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		
+        <button id="retry-btn">Retry Quiz</button>
+    </section>
+    <br><br>
+	<br></br>
+	<br></br>
+</main>
+
+<footer>
+    <p>&copy; 2024 Good Ear</p>
+</footer>
+
+<script src="quiz.js"></script>
+</body>
+</html>

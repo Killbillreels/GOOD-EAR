@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Note Guessing Game</title>
+<link rel="stylesheet" href="gamestyle.css">
+</head>
+<body>
+
+<header>
+    <h1>GOOD EAR</h1>
+</header>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<main>
+
+<br></br>
+<br></br>
+
+    <section id="start-section">
+	<P>In this game you have to listen carefully and identfy which notes are being played.<br></br>
+	The answer will either be a sharp or natural note.
+	</P>
+        <button id="start-btn">Start Game</button>
+    </section>
+
+    <section id="quiz-section" style="display:none;">
+        <h2 id="quiz-title"></h2>
+        <p id="question"></p>
+        <audio id="note-audio"></audio>
+		<br></br>
+        <button id="play-audio"><img src="C:\Users\kaleb\OneDrive\Desktop\GoodEar2\Soundslg.png"></button>
+		<br></br>
+		<br></br>
+		
+        <div id="inputs-container"></div>
+		<br></br>
+        <button id="submit-btn">Submit</button>
+        <p id="feedback"></p>
+    </section>
+
+    <section id="results-section" style="display:none;">
+        <h2>Results</h2>
+        <p id="results"></p>
+        <button id="retry-btn">Retry</button>
+    </section>
+</main>
+
+<br></br>
+<br></br>
+<br></br>
+
+
+<footer>
+    <p>&copy; 2024 Good Ear</p>
+</footer>
+
+<script src="game.js"></script>
+
+</body>
+</html>

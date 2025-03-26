@@ -1,0 +1,85 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: gold; /* Gold background */
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 54px;
+    color: #fff; /* White text */
+}
+
+h2 {
+    color: gold; /* Gold background */
+	font-size: 45px;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Main menu section styles */
+#main-menu {
+    margin-top: 40px;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-btn {
+    padding: 15px 30px;
+    background-color: gold; /* Gold background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 50px; /* Round shape */
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.menu-btn:hover {
+    background-color: rgba(255, 215, 0, 0.7); /* Lighten background on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: gold; /* Gold background */
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    color: #fff; /* White text */
+    margin: 0;
+}
